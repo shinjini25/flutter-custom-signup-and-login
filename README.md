@@ -32,6 +32,9 @@
 
   
   
+**Note: Image Picker plugin requires additional configurational steps for ioS devices. **
+For more information, refer [here](https://pub.dev/packages/image_picker).
+  
 
 ### Changes to make before running it on your device-
 
