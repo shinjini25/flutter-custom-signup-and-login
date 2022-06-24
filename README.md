@@ -1,9 +1,8 @@
-**
 
 ## Ready-made Flutter Signup and Login screens with custom text field inputs using Firebase and GetX.
 
-**
-
+ - **Client:** Flutter, GetX
+ - **Architecture:** MVC
   
 
 ### Features-
@@ -62,6 +61,7 @@
 
 
 **Versions used in the project-:** 
+
  - Flutter - ^3.1 
  - get: ^4.6.5 
  - firebase_core: ^1.18.0 
