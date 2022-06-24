@@ -62,10 +62,10 @@
 
 
 **Versions used in the project-:** 
-Flutter - ^3.1
-get: ^4.6.5
-firebase_core: ^1.18.0
-firebase_auth: ^3.3.20
-firebase_storage: ^10.2.18
-cloud_firestore: ^3.1.18
-image_picker: ^0.8.5+3
+ - Flutter - ^3.1 
+ - get: ^4.6.5 
+ - firebase_core: ^1.18.0 
+ - firebase_auth: ^3.3.20 
+ - firebase_storage: ^10.2.18 
+ - cloud_firestore: ^3.1.18
+  - image_picker: ^0.8.5+3
