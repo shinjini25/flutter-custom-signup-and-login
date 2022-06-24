@@ -1,16 +1,22 @@
-# videozen
+Ready-made Signup and Login screens with cutom text field inputs using Firebase and GetX. <\br>
 
-A new Flutter project.
+### Features- 
+1. User state perisitance <\br>
+2. Firebase signup, login (using email and password), and sign out using Firebase Auth <\br>
+3. Image file upload ( to Firebase Storage) using Image Picker library <\br>
+4. Custom user model for Firebase Firestore database <\br>
+5. Snackbars indicating the status (error/success) <\br>
 
-## Getting Started
+### Steps: 
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+### Changes to make before running it on your device- 
+1.  in lib/controller/auth_controllers registerUser function --> await firestore.collection('users'). Change 'users' to your Firestore's collection name. <\br>
+2.  in  lib/controller/auth_controllers _uploadToStorage function -->  Reference ref = firebaseStorage.ref().child('profilePics').  Change 'profilePics' to the name you want to store the photos as in your Firebase Storage. <\br>
+3. review lib/controller/auth_controllers file diligently and make changes according to the functionalities you require.<\br>
+       
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+#### Note: you can modify the existing code according to your design. <\br>
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
